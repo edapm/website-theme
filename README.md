@@ -1,8 +1,8 @@
-# Etch
+# Etch / Website Theme
+
+This is my [website](https://edwardmason.netlify.app)'s theme, based on [Etch](https://github.com/LukasJoswiak/etch) by [Lukas Joswiak](https://github.com/LukasJoswiak).
 
 Etch is a simple, responsive theme for [Hugo](https://gohugo.io) with a focus on writing. A live demo is available at https://lukasjoswiak.github.io/etch/.
-
-<img src="https://raw.githubusercontent.com/LukasJoswiak/etch/master/images/screenshot_small.png" alt="screenshot" width="545px">
 
 ## Features:
 
@@ -19,7 +19,7 @@ Etch is a simple, responsive theme for [Hugo](https://gohugo.io) with a focus on
 To install `etch`, download the repository into the `themes` folder in the root of your site.
 
 ```
-$ git submodule add https://github.com/LukasJoswiak/etch.git themes/etch
+$ git submodule add https://github.com/edapm/website-theme.git themes/etch
 ```
 
 Then, use the theme to generate your site.
