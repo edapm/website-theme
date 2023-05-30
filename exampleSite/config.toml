@@ -9,6 +9,7 @@ pygmentsUseClasses = true
 [params]
   description = "Your site description"
   copyright = "Copyright © 2021 Your Name"
+  notFound = "404 Page Not Found. Apologies!"
   dark = "auto"
   highlight = true
 
