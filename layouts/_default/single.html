@@ -4,7 +4,7 @@
         <h1>{{ .Title }}</h1>
         <div>
             {{- if isset .Params "date" -}}
-            Posted: <time>{{ .Date | time.Format (i18n "post.created") }}</time>
+            Posted <time>{{ .Date | time.Format (i18n "post.created") }}</time>
             {{ if ne .Lastmod .Date }}
             <br />
             <time>{{ .Lastmod | time.Format (i18n "post.updated") }}</time>
