@@ -6,8 +6,6 @@
             {{- if isset .Params "date" -}}
             {{ if eq .Lastmod .Date }}
             <time>{{ .Date | time.Format (i18n "post.created") }}</time>
-            {{- if isset .Params "edited" -}}
-            <time>{{ .Edited | time.Format (i18n "post.lastEdited") }}</time>
             {{ else }}
             <time>{{ .Lastmod | time.Format (i18n "post.updated") }}</time>
             {{ end }}
