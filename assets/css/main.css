@@ -299,7 +299,7 @@ footer#footer {
 	font-weight: 600;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
-	float: inline-end;
+	float: right;
 }
 
 .comments-emoji {
@@ -307,7 +307,7 @@ footer#footer {
 }
 
 .post-comments {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 #comments h3.title {
