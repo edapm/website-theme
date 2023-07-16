@@ -14,7 +14,7 @@
         </div>
     </header>
     {{- .Content -}}
-    {{- if .Params "type" ne "page" -}}
+    {{- if .Params "comments" -}}
         {{ partial "comments.html" .}}
     {{- end -}}
 </article>
