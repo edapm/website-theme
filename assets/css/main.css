@@ -283,13 +283,26 @@ footer#footer {
 
 /* Staticman comment section and form */
 
+.btn-secondary {
+    background-color: #369aff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
 .comments-emoji {
     margin-right: 5px;
 }
 
 .post-comments {}
 
-.commentsTitle {
+#comments h3.title {
     font-weight: bold;
     font-size: 20px;
     padding: 10px 4rem;
@@ -297,7 +310,7 @@ footer#footer {
     color: white;
 }
 
-.commentsTitle a {
+#comments .title a {
     text-decoration: none;
     color: white;
 }
