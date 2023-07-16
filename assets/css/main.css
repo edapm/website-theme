@@ -300,6 +300,11 @@ footer#footer {
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 	float: right;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .comments-emoji {
@@ -316,6 +321,7 @@ footer#footer {
 	padding: 20px 4rem;
 	background: #777777;
 	color: white;
+    position: relative;
 }
 
 #comments .title a {
