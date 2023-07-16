@@ -299,10 +299,9 @@ footer#footer {
 	font-weight: 600;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
-    display: block;
-    margin: 10px auto;
-    width: 30%;
-
+	display: block;
+	margin: 10px auto;
+	width: 80%;
 }
 
 .comments-emoji {
@@ -319,7 +318,7 @@ footer#footer {
 	padding: 20px 4rem;
 	background: #777777;
 	color: white;
-    position: relative;
+	position: relative;
 }
 
 #comments .title a {
