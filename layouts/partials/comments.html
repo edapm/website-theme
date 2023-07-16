@@ -4,7 +4,12 @@
 <section id="comments">
     <script>
         function hideShowComments() {
-            document.getElementById("comments").style.visibility = "hidden";
+            var element = document.getElementById("comments");
+            if (element.style.visibility === "hidden") {
+                element.style.visibility = "visible";
+            } else {
+                element.style.visibility = "hidden";
+            }
         }
     </script>
     {{ if .Site.Params.staticman }}
