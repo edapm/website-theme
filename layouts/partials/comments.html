@@ -12,7 +12,7 @@
     </script>
     {{ if .Site.Params.staticman }}
     <h3 class="title"><a href="#comments">&#9997; Comments</a></h3>
-    <button class="btn btn-secondary" type="button" onclick="hideShowComments()">Show/Hide Comments</button>
+    <button class="btn btn-secondary" type="button" onclick="hideShowComments()">&#128064; Show/Hide Comments</button>
     <section class="staticman-comments post-comments" id="post-comments">
         {{ $comments := readDir "data/comments" }}
         {{ $.Scratch.Add "hasComments" 0 }}
