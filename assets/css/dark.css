@@ -86,6 +86,10 @@ a:hover {
     color: grey;
 }
 
+.dialog {
+    background-color: #302f2f;
+}
+
 .post-comment {
     background-color: #393838;
 }
