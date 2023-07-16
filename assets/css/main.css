@@ -390,7 +390,7 @@ footer#footer {
 
 .btn-primary.comment-buttons:focus,
 .btn-primary.comment-buttons:hover {
-    background: #7c51a2 !important;
+    background: #666666 !important;
     color: white;
 }
 

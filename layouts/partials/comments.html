@@ -1,7 +1,12 @@
 {{ if and .Site.Params.staticman (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
 <section id="comments">
+    <script>
+        function hideShowComments() {
+            document.getElementById("comments").style.visibility = "hidden";
+        }
+    </script>
     {{ if .Site.Params.staticman }}
-    <h3 class="title"><a href="#comments">&#9997; Comments</a></h3>
+    <h3 class="title"><a href="#comments">&#9997; Comments</a><br /><button class="btn btn-primary comment-buttons" type="button" onclick="hideShowComments()">Show/Hide Comments</button></h3>
     <section class="staticman-comments post-comments">
         {{ $comments := readDir "data/comments" }}
         {{ $.Scratch.Add "hasComments" 0 }}
