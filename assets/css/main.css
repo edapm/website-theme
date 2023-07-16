@@ -283,13 +283,17 @@ footer#footer {
 
 /* Staticman comment section and form */
 
+.comments-emoji {
+    margin-right: 5px;
+}
+
 .post-comments {}
 
 #comments h3.title {
     font-weight: bold;
     font-size: 20px;
     padding: 10px 4rem;
-    background: #9a6bcc;
+    background: #777777;
     color: white;
 }
 
@@ -354,7 +358,7 @@ footer#footer {
 }
 
 .comment__reply button {
-    background: #9a6bcc;
+    background: #777777;
     color: white;
     border: none;
     transition: all .2s;
@@ -362,7 +366,7 @@ footer#footer {
 
 .comment__reply button:hover {
     border: none;
-    background: #996bccd1;
+    background: #666666;
 }
 
 /* Part of blog subscription also */
@@ -372,13 +376,13 @@ footer#footer {
     font: inherit;
     padding: 10px;
     margin-top: 20px;
-    outline-color: #9b6bcc;
+    outline-color: #777777;
     width: 100%;
 }
 
 .btn-primary.comment-buttons {
-    background: #9b6bcc !important;
-    border-color: #9b6bcc !important;
+    background: #777777 !important;
+    border-color: #777777 !important;
     color: white;
     border-radius: 6px;
 }
@@ -409,7 +413,7 @@ footer#footer {
 }
 
 .post-comment-info .post-time:hover {
-    color: #9b6bcc;
+    color: #777777;
 }
 
 .post-new-comment {
