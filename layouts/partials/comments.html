@@ -14,7 +14,7 @@
     <h3 class="title"><a href="#comments">&#9997; Comments</a><button
             class="btn btn-secondary" type="button" onclick="hideShowComments()">Show/Hide Comments</button>
     </h3>
-    <section class="staticman-comments post-comments">
+    <section class="staticman-comments post-comments" id="post-comments">
         {{ $comments := readDir "data/comments" }}
         {{ $.Scratch.Add "hasComments" 0 }}
         {{ $postSlug := .File.BaseFileName }}
