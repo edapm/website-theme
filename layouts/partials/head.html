@@ -27,6 +27,8 @@
     {{ end -}}
 
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
+    {{ $js := resources.Get "js/staticman.js" }}
+    
     {{ printf `
     <link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
