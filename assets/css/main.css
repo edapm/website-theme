@@ -1,71 +1,74 @@
-*, *:before, *:after {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #313a3d;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 16px;
-    line-height: 1.6;
-    overflow-wrap: break-word;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+		sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	color: #313a3d;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 16px;
+	line-height: 1.6;
+	overflow-wrap: break-word;
 }
 
 header#banner {
-    margin: 25px 0;
+	margin: 25px 0;
 }
 
 header#banner a {
-    color: #313a3d;
-    text-decoration: none;
+	color: #313a3d;
+	text-decoration: none;
 }
 
 header#banner a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 header#banner h2 {
-    display: inline;
-    font-size: 21px;
-    font-size: 2.1rem;
-    margin: 0 8px 0 0;
+	display: inline;
+	font-size: 21px;
+	font-size: 2.1rem;
+	margin: 0 8px 0 0;
 }
 
 header#banner nav {
-    display: inline-block;
+	display: inline-block;
 }
 
 header#banner nav ul {
-    list-style-type: none;
-    font-size: 1.05em;
-    text-transform: lowercase;
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+	font-size: 1.05em;
+	text-transform: lowercase;
+	margin: 0;
+	padding: 0;
 }
 
 header#banner nav ul li {
-    display: inline;
-    margin: 0 3px;
+	display: inline;
+	margin: 0 3px;
 }
 
 header#banner nav ul li a {
-    color: #454545;
+	color: #454545;
 }
 
 main#content a {
-    color: #007dfa;
-    text-decoration: none;
+	color: #007dfa;
+	text-decoration: none;
 }
 
 main#content a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 main#content h1,
@@ -74,13 +77,13 @@ main#content h3,
 main#content h4,
 main#content h5,
 main#content h6 {
-    margin-bottom: 0;
-    line-height: 1.15;
+	margin-bottom: 0;
+	line-height: 1.15;
 }
 
 main#content h3 {
-    font-size: 19px;
-    font-size: 1.9rem;
+	font-size: 19px;
+	font-size: 1.9rem;
 }
 
 main#content h1 + p,
@@ -89,428 +92,431 @@ main#content h3 + p,
 main#content h4 + p,
 main#content h5 + p,
 main#content h6 + p {
-    margin-top: 5px;
+	margin-top: 5px;
 }
 
 main#content p {
-    color: #394548;
-    margin: 16px 0;
+	color: #394548;
+	margin: 16px 0;
 }
 
 main#content hr {
-    height: 1px;
-    border: 0;
-    background: #d8d8d8;
+	height: 1px;
+	border: 0;
+	background: #d8d8d8;
 }
 
 main#content abbr {
-    cursor: help;
+	cursor: help;
 }
 
 /* index.html styles */
 main#content ul#posts {
-    list-style-type: none;
-    font-size: 16px;
-    font-size: 1.6rem;
-    margin-top: 0;
-    padding: 0;
+	list-style-type: none;
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-top: 0;
+	padding: 0;
 }
 
 main#content ul#posts li {
-    margin: 5px 0;
-    padding: 0;
+	margin: 5px 0;
+	padding: 0;
 }
 
 main#content ul#posts small {
-    font-size: 0.8em;
-    color: #767676;
-    margin-left: 10px;
+	font-size: 0.8em;
+	color: #767676;
+	margin-left: 10px;
 }
 
 main#content ul#posts li a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 main#content ul#posts li a:hover {
-    color: #369aff;
+	color: #369aff;
 }
 
 main#content ul#posts li a:hover small {
-    color: inherit;
+	color: inherit;
 }
 
 /* single.html styles */
 main#content header#post-header h1 {
-    display: block;
-    font-size: 23px;
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: 1.15;
+	display: block;
+	font-size: 23px;
+	font-size: 2.3rem;
+	font-weight: 600;
+	line-height: 1.15;
 }
 
 main#content header#post-header > div {
-    display: block;
-    font-size: 0.85em;
-    color: #767676;
+	display: block;
+	font-size: 0.85em;
+	color: #767676;
 }
 
 main#content #toc {
-    border: 1px solid #b1b1b1;
-    border-radius: 1px;
-    line-height: 26px;
-    margin: 16px 0;
-    padding: 9px 14px;
+	border: 1px solid #b1b1b1;
+	border-radius: 1px;
+	line-height: 26px;
+	margin: 16px 0;
+	padding: 9px 14px;
 }
 
 main#content #toc h4 {
-    font-size: 1.06em;
-    color: #3d3d3d;
-    margin: 0;
+	font-size: 1.06em;
+	color: #3d3d3d;
+	margin: 0;
 }
 
 main#content #toc nav#TableOfContents {
-    margin-top: 4px;
+	margin-top: 4px;
 }
 
-main#content #toc nav#TableOfContents > ul, main#content #toc nav#TableOfContents > ol {
-    margin-left: -40px;
+main#content #toc nav#TableOfContents > ul,
+main#content #toc nav#TableOfContents > ol {
+	margin-left: -40px;
 }
 
-main#content #toc ul, main#content #toc ol {
-    font-size: 0.98em;
-    margin: 0;
-    padding: 0 0 0 40px;
+main#content #toc ul,
+main#content #toc ol {
+	font-size: 0.98em;
+	margin: 0;
+	padding: 0 0 0 40px;
 }
 
 main#content #toc ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 main#content #toc ol {
-    counter-reset: item;
+	counter-reset: item;
 }
 
 main#content #toc ol li {
-    display: block;
+	display: block;
 }
 
 main#content #toc ol li:before {
-    content: counters(item, ".") ". ";
-    counter-increment: item;
+	content: counters(item, ".") ". ";
+	counter-increment: item;
 }
 
 main#content img {
-    max-width: 100%;
-    margin: 0 auto;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 main#content figure {
-    margin: 16px 0;
+	margin: 16px 0;
 }
 
 main#content figure img {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 main#content figure figcaption {
-    font-size: 0.92em;
-    font-style: italic;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 6px;
-    padding: 0 10px;
+	font-size: 0.92em;
+	font-style: italic;
+	line-height: 22px;
+	text-align: center;
+	margin-top: 6px;
+	padding: 0 10px;
 }
 
 main#content figure figcaption h4 {
-    font-style: normal;
-    display: inline;
-    margin: 0;
+	font-style: normal;
+	display: inline;
+	margin: 0;
 }
 
 main#content figure figcaption p {
-    display: inline;
-    margin: 0;
-    padding-left: 8px;
+	display: inline;
+	margin: 0;
+	padding-left: 8px;
 }
 
 main#content blockquote {
-    font-style: italic;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    padding-left: 15px;
-    border-left: 3px solid #ccc;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	padding-left: 15px;
+	border-left: 3px solid #ccc;
 }
 
 main#content code,
 main#content pre {
-    font-family: 'Menlo', monospace;
+	font-family: "Menlo", monospace;
 }
 
 main#content code {
-    font-size: 0.96em;
-    padding: 0 5px;
+	font-size: 0.96em;
+	padding: 0 5px;
 }
 
 main#content pre {
-    display: block;
-    overflow-x: auto;
-    font-size: 14px;
-    font-size: 1.4rem;
-    white-space: pre;
-    margin: 20px 0;
-    padding: 1.5rem 1.5rem;
-    line-height: 1.4;
+	display: block;
+	overflow-x: auto;
+	font-size: 14px;
+	font-size: 1.4rem;
+	white-space: pre;
+	margin: 20px 0;
+	padding: 1.5rem 1.5rem;
+	line-height: 1.4;
 }
 
 main#content pre code {
-    padding: 0;
+	padding: 0;
 }
 
 main#content .footnotes {
-    font-size: 0.9em;
+	font-size: 0.9em;
 }
 
 footer#footer {
-    font-size: 14px;
-    font-size: 1.4rem;
-    font-weight: 400;
-    color: #b3b3b3;
-    margin: 40px 0;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #b3b3b3;
+	margin: 40px 0;
 }
 
 /* Staticman comment section and form */
 
 .btn-secondary {
-    background-color: #369aff;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+	background-color: #369aff;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	float: inline-end;
 }
 
 .comments-emoji {
-    margin-right: 5px;
+	margin-right: 5px;
 }
 
-.post-comments {}
+.post-comments {
+}
 
 #comments h3.title {
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px 4rem;
-    background: #777777;
-    color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 4rem;
+	background: #777777;
+	color: white;
 }
 
 #comments .title a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .post-comments h3.prompt {
-    margin-top: 2rem;
+	margin-top: 2rem;
 }
 
 .post-comment {
-    background-color: white;
-    padding: 2rem 4rem;
+	background-color: white;
+	padding: 2rem 4rem;
 }
 
 .post-comment.reply {
-    background: #f3f0f0eb;
-    position: relative;
+	background: #f3f0f0eb;
+	position: relative;
 }
 
 .arrow-up {
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid #f3f1f1;
-    position: absolute;
-    top: -20px;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #f3f1f1;
+	position: absolute;
+	top: -20px;
 }
 
-.post-comment:first-of-type {}
+.post-comment:first-of-type {
+}
 
-.post-comment:last-of-type {}
+.post-comment:last-of-type {
+}
 
 .post-comment-header {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .post-comment .comment-message {
-    font-size: 1.7rem;
-    word-break: break-word;
+	font-size: 1.7rem;
+	word-break: break-word;
 }
 
 .post-comment-avatar {
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 50%;
-    padding: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 50%;
+	padding: 20px;
 }
 
 .post-comment-info {
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 0;
-    vertical-align: middle;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 0;
+	vertical-align: middle;
 }
 
 .comment__reply {
-    text-align: right;
-    margin-top: 10px;
+	text-align: right;
+	margin-top: 10px;
 }
 
 .comment__reply button {
-    background: #777777;
-    color: white;
-    border: none;
-    transition: all .2s;
+	background: #777777;
+	color: white;
+	border: none;
+	transition: all 0.2s;
 }
 
 .comment__reply button:hover {
-    border: none;
-    background: #666666;
+	border: none;
+	background: #666666;
 }
 
 /* Part of blog subscription also */
 .post-comment-field,
 .post-blogsubscriber-btn {
-    display: block;
-    font: inherit;
-    padding: 10px;
-    margin-top: 20px;
-    outline-color: #777777;
-    width: 100%;
+	display: block;
+	font: inherit;
+	padding: 10px;
+	margin-top: 20px;
+	outline-color: #777777;
+	width: 100%;
 }
 
 .btn-primary.comment-buttons {
-    background: #777777 !important;
-    border-color: #777777 !important;
-    color: white;
-    border-radius: 6px;
+	background: #777777 !important;
+	border-color: #777777 !important;
+	color: white;
+	border-radius: 6px;
 }
 
 .btn-primary.comment-buttons:focus,
 .btn-primary.comment-buttons:hover {
-    background: #666666 !important;
-    color: white;
+	background: #666666 !important;
+	color: white;
 }
 
 .darkmode .btn-primary.comment-buttons:focus,
 .btn-primary.comment-buttons:hover {
-    background: #838087 !important;
+	background: #838087 !important;
 }
 
 .post-comment-info .post-comment-name {
-    font-size: 2rem;
-    font-weight: 500;
-
+	font-size: 2rem;
+	font-weight: 500;
 }
 
 .post-comment-info .post-time {
-    font-size: 14px;
-    font-weight: normal;
-    letter-spacing: 0.03em;
-    color: #888;
-
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 0.03em;
+	color: #888;
 }
 
 .post-comment-info .post-time:hover {
-    color: #777777;
+	color: #777777;
 }
 
 .post-new-comment {
-    margin-bottom: 0px;
-    margin-top: 30px;
-    padding: 4rem;
-    padding-top: 0rem;
+	margin-bottom: 0px;
+	margin-top: 30px;
+	padding: 4rem;
+	padding-top: 0rem;
 }
-
 
 /* End staticman comment section and form */
 
 /* Staticman comment submission confirmation dialog */
 
 .dialog {
-    display: none;
-    position: fixed;
-    background-color: rgb(247, 247, 247);
-    padding-top: 20%;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
+	display: none;
+	position: fixed;
+	background-color: rgb(247, 247, 247);
+	padding-top: 20%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
 }
 
 .dialog:target {
-    display: block;
+	display: block;
 }
 
 .dialog h3 {
-    font-size: 25px;
-    font-weight: bold;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 .dialog .btn-primary.comment-buttons.ok {
-    width: 7rem;
-    display: inline-block;
-    text-decoration: none;
+	width: 7rem;
+	display: inline-block;
+	text-decoration: none;
 }
 
 /* End staticman comment submission confirmation dialog */
 
 /* Notify me of new comments checkbox */
 
-input[type=checkbox].checkbox {
-    display: none;
+input[type="checkbox"].checkbox {
+	display: none;
 }
 
 .checkbox-label {
-    position: relative;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    float: left;
+	position: relative;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	float: left;
 }
 
 .checkbox-label:before {
-    content: ' ';
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    border-width: 1px;
-    border-style: solid;
-    vertical-align: middle;
-    position: relative;
-    bottom: 2px;
-    color: rgb(169, 169, 169);
+	content: " ";
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-width: 1px;
+	border-style: solid;
+	vertical-align: middle;
+	position: relative;
+	bottom: 2px;
+	color: rgb(169, 169, 169);
 }
 
-.checkbox:checked+.checkbox-label:after {
-    content: 'x';
-    display: inline-block;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-width: 2px;
-    line-height: 25px;
-    top: 11px;
-    left: 1px;
-    font-family: sans-serif;
-    text-align: center;
+.checkbox:checked + .checkbox-label:after {
+	content: "x";
+	display: inline-block;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-width: 2px;
+	line-height: 25px;
+	top: 11px;
+	left: 1px;
+	font-family: sans-serif;
+	text-align: center;
 }
 
 /* End notify me of new comments checkbox */
