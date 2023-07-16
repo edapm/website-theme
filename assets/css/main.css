@@ -300,6 +300,7 @@ footer#footer {
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 	float: inline-end;
+	visibility: hidden;
 }
 
 .comments-emoji {
