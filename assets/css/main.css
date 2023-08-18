@@ -30,7 +30,7 @@ header#banner {
 }
 
 header#banner a {
-	color: #313a3d;
+	color: var(main-color);
 	text-decoration: none;
 }
 
