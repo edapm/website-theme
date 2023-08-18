@@ -21,6 +21,13 @@ body {
 	overflow-wrap: break-word;
 }
 
+a:hover {
+	font-size: 20px;
+	color: #666666;
+	transition: ease-in-out;
+	transition-duration: 300;
+}
+
 header#banner {
 	margin: 25px 0;
 }
