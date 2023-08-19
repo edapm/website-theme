@@ -1,3 +1,4 @@
+<h3 id="more-posts-title">{{ i18n "more-posts.title" }}</h3>
 <ul id="more-posts">
     {{- range where site.RegularPages "Type" "in" site.Params.mainSections | last 2 }}
         {{ .Render "li" }}

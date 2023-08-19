@@ -298,6 +298,10 @@ main#content ul#more-posts {
 	padding: 0;
 }
 
+main#content h3#more-posts-title {
+	font-family: "Unica One", cursive;
+}
+
 main#content ul#more-posts li {
 	margin: 5px 0;
 	padding: 0;
