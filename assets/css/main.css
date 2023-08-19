@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 :root {
 	main-color: #444444;
@@ -45,6 +46,7 @@ header#banner h2 {
 	display: inline;
 	font-size: 21px;
 	font-size: 2.1rem;
+	font-family: "Fredericka the Great", cursive;
 	color: var(main-color);
 	margin: 0 8px 0 0;
 }
