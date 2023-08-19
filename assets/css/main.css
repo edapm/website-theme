@@ -92,14 +92,13 @@ main#content h6 {
 	line-height: 1.15;
 }
 
-main#content h1 {
-	font-family: "Unica One", cursive;
-	font-size: 21px;
-}
-
 main#content h3 {
 	font-size: 19px;
 	font-size: 1.9rem;
+}
+
+main#content h3#posts-title {
+	font-family: "Unica One", cursive;
 }
 
 main#content h1 + p,
@@ -163,6 +162,7 @@ main#content header#post-header h1 {
 	display: block;
 	font-size: 23px;
 	font-size: 2.3rem;
+	font-family: "Unica One", cursive;
 	font-weight: 600;
 	line-height: 1.15;
 }
@@ -288,6 +288,37 @@ main#content pre {
 
 main#content pre code {
 	padding: 0;
+}
+
+main#content ul#more-posts {
+	list-style-type: none;
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-top: 0;
+	padding: 0;
+}
+
+main#content ul#more-posts li {
+	margin: 5px 0;
+	padding: 0;
+}
+
+main#content ul#more-posts small {
+	font-size: 0.8em;
+	color: #767676;
+	margin-left: 10px;
+}
+
+main#content ul#more-posts li a {
+	text-decoration: none;
+}
+
+main#content ul#more-posts li a:hover {
+	color: #369aff;
+}
+
+main#content ul#more-posts li a:hover small {
+	color: inherit;
 }
 
 main#content .footnotes {

@@ -1,0 +1,5 @@
+<ul id="more-posts">
+    {{- range where site.RegularPages "Type" "in" site.Params.mainSections | last 2 }}
+        {{ .Render "li" }}
+    {{- end }}
+</ul>
