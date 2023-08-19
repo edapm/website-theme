@@ -295,7 +295,7 @@ main#content div#read-more {
 	padding: 10px 20px;
 }
 
-main#content ul#more-posts {
+main#content div#read-more ul#more-posts {
 	list-style-type: none;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -303,30 +303,30 @@ main#content ul#more-posts {
 	padding: 0;
 }
 
-main#content h3#more-posts-title {
+main#content div#read-more h3#more-posts-title {
 	font-family: "Unica One", cursive;
 }
 
-main#content ul#more-posts li {
+main#content div#read-more ul#more-posts li {
 	margin: 5px 0;
 	padding: 0;
 }
 
-main#content ul#more-posts small {
+main#content div#read-more ul#more-posts small {
 	font-size: 0.8em;
 	color: #767676;
 	margin-left: 10px;
 }
 
-main#content ul#more-posts li a {
+main#content div#read-more ul#more-posts li a {
 	text-decoration: none;
 }
 
-main#content ul#more-posts li a:hover {
+main#content div#read-more ul#more-posts li a:hover {
 	color: #369aff;
 }
 
-main#content ul#more-posts li a:hover small {
+main#content div#read-more ul#more-posts li a:hover small {
 	color: inherit;
 }
 
