@@ -38,6 +38,10 @@ header#banner a:hover {
 	text-decoration: underline;
 }
 
+header#banner a:visited {
+	color: var(main-color);
+}
+
 header#banner h2 {
 	display: inline;
 	font-size: 21px;
