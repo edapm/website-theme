@@ -1,5 +1,5 @@
 :root {
-	main-color: #06b6d4;
+	main-color: #444444;
 }
 
 *,
@@ -30,7 +30,7 @@ header#banner {
 }
 
 header#banner a {
-	color: var(main-color);
+	color: inherit;
 	text-decoration: none;
 }
 
@@ -38,9 +38,6 @@ header#banner a:hover {
 	text-decoration: underline;
 }
 
-header#banner a:visited {
-	color: var(main-color);
-}
 
 header#banner h2 {
 	display: inline;
