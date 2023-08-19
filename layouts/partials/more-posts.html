@@ -1,6 +1,8 @@
-<h3 id="more-posts-title">{{ i18n "more-posts.title" }}</h3>
-<ul id="more-posts">
-    {{- range where site.RegularPages "Type" "in" site.Params.mainSections | last 2 }}
-        {{ .Render "li" }}
-    {{- end }}
-</ul>
+<div id="read-more">
+    <h3 id="more-posts-title">More Posts</h3>
+    <ul id="more-posts">
+        {{- range where site.RegularPages "Type" "in" site.Params.mainSections | last 2 }}
+            {{ .Render "li" }}
+        {{- end }}
+    </ul>
+</div>

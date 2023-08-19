@@ -290,6 +290,11 @@ main#content pre code {
 	padding: 0;
 }
 
+main#content div#read-more {
+	background-color: #b1b1b1;
+	padding: 10px 20px;
+}
+
 main#content ul#more-posts {
 	list-style-type: none;
 	font-size: 16px;
