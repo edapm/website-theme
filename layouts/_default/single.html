@@ -14,7 +14,9 @@
         </div>
     </header>
     {{- .Content -}}
-    {{ partial "more-posts.html" .}}
+    {{- if .Param "tags" -}}
+        {{ partial "more-posts.html" . }}
+    {{- end -}}
     {{- if .Param "comments" -}}
         {{ partial "comments.html" .}}
     {{- end -}}
