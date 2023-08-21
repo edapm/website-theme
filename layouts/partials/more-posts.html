@@ -1,7 +1,7 @@
 <div id="read-more">
     <h3 id="more-posts-title">More Posts</h3>
     <ul id="more-posts">
-        {{- range where site.RegularPages "Type" "in" site.Params.mainSections | last 2 }}
+        {{- $related := .Site.RegularPages.Related . | first 2 }}
             {{ .Render "li" }}
         {{- end }}
     </ul>
