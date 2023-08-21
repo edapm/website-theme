@@ -49,6 +49,10 @@ main#content header#post-header div {
     color: #a7a7a7;
 }
 
+main#content div#read-more {
+	background-color: #164e63;
+}
+
 #comments h3.title {
     background: #838087;
 }
