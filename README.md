@@ -1,6 +1,6 @@
 # Etch / Website Theme
 
-This is my [website](https://edwardmason.vercel.app)'s theme, based on [Etch](https://github.com/LukasJoswiak/etch) by [Lukas Joswiak](https://github.com/LukasJoswiak).
+This is my [website](https://edmason.co.uk)'s theme, based on [Etch](https://github.com/LukasJoswiak/etch) by [Lukas Joswiak](https://github.com/LukasJoswiak).
 
 Etch is a simple, responsive theme for [Hugo](https://gohugo.io) with a focus on writing. A live demo is available at https://lukasjoswiak.github.io/etch/.
 
